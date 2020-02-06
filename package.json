@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "workspaces": [
+    "site",
+    "theme"
+  ],
+  "dependencies": {
+    "gatsby-plugin-sass": "^2.1.28",
+    "node-sass": "^4.13.1"
+  }
+}
