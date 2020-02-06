@@ -9,11 +9,11 @@
 
 ## 🚀 Quick start
 
-1.  **Create .env files inside site/ folder.**
+1.  **Create _.env_ files inside `site/` folder.**
 
-    .env<br>
+    _.env<br>
     .env.development<br>
-    .env.production
+    .env.production_
 
     ```
     GATSBY_API_URL=https://dev.example.com/api

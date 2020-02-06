@@ -9,7 +9,7 @@ import Content from '../modules/content'
 const Layout = ({ page, menus, widgets }) => (
     <div sx={{ display: 'flex', flexDirection: 'column', fontFamily: 'body', backgroundColor: 'background', color: 'text' }}>
         <Header>{page.title}</Header>
-        <Navbar logo="te" menu={menus.main}/>
+        <Navbar logo="" menu={menus.main} path={page.path}/>
         <div className='row'>
             <div className='main-column'>
                 <main sx={{ backgroundColor: '#F1F1F1', variant: 'layout.main', }}>
@@ -26,9 +26,8 @@ const Layout = ({ page, menus, widgets }) => (
                 <Sidebar menu={menus.main}>Sidebar</Sidebar>
             </div>
         </div>
-        <Footer copyright="&copy; 2020 Gaming Innovation Group. All rights reserved.">
+        <Footer copyright="&copy; 2020 Carmelo. All rights reserved.">
             Footer content
-            <Navbar menu={menus.footer}/>
         </Footer>
     </div>
 );

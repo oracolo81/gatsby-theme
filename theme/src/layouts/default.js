@@ -8,7 +8,7 @@ import Content from '../modules/content'
 const Layout = ({ page, menus, widgets }) => (
     <div sx={{ display: 'flex', flexDirection: 'column', fontFamily: 'body', backgroundColor: 'background', color: 'text' }}>
         <Header>{page.title}</Header>
-        <Navbar logo="te" menu={menus.main}/>
+        <Navbar logo="https://www.gatsbyjs.org/monogram.svg" menu={menus.main} path={page.path}/>
         <main sx={{ backgroundColor: '#F1F1F1', variant: 'layout.main', }}>
             <Container>
                 <div sx={{ maxWidth: 768, mx: 'auto', px: 3, }}>
