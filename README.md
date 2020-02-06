@@ -9,14 +9,28 @@
 
 ## 🚀 Quick start
 
-1.  **Start developing.**
+1.  **Create .env files inside site/ folder.**
+
+    .env<br>
+    .env.development<br>
+    .env.production
+
+    ```
+    GATSBY_API_URL=https://dev.example.com/api
+    GATSBY_API_X_ID=
+    GATSBY_API_X_SIGNATURE=
+    ```
+
+2.  **Start developing.**
 
     ```shell
     yarn
     yarn workspace site develop
     ```
 
-2.  **Create a new Gatsby site.**
+## New site
+
+1.  **Create a new Gatsby site.**
 
     Use the Gatsby CLI to create a new site.
 
