@@ -5,7 +5,7 @@
     "theme"
   ],
   "dependencies": {
-    "gatsby-plugin-sass": "^2.1.28",
+    "gatsby-plugin-sass": "^6.3.1",
     "node-sass": "^4.13.1"
   }
 }
